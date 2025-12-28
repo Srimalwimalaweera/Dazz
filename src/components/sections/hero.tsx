@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { WHATSAPP_LINK } from "@/lib/config";
 
 export function Hero() {
-  const heroImageUrl = "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2Fart.jpg?alt=media&token=a956b6a0-cef4-47a9-a6de-73d445914554";
+  const heroImageUrl = "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2Fart%20without%20text.jpg?alt=media&token=a2022d04-c93b-4d75-bbda-e0a29d52fa78";
 
   return (
     <section 
