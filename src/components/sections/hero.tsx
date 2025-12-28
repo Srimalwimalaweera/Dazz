@@ -17,9 +17,9 @@ export function Hero() {
         <Image
           src={logoUrl}
           alt="Dazz Logo"
-          width={200}
-          height={200}
-          className="mb-4 h-24 w-auto md:h-32"
+          width={100}
+          height={100}
+          className="mb-4 h-12 w-auto md:h-16"
         />
         <h1 className="font-headline text-5xl font-extrabold tracking-tight text-primary md:text-7xl">
           DAZZLE WITH PERSONAL TOUCH
