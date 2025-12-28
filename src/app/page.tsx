@@ -5,6 +5,7 @@ import { Experience } from "@/components/sections/experience";
 import { Gallery } from "@/components/sections/gallery";
 import { Contact } from "@/components/sections/contact";
 import { Footer } from "@/components/layout/footer";
+import { FadeInSection } from "@/components/fade-in";
 
 export default function Home() {
   return (
@@ -13,11 +14,21 @@ export default function Home() {
         <Header />
       </div>
       <main className="flex-1">
-        <Hero />
-        <Services />
-        <Experience />
-        <Gallery />
-        <Contact />
+        <FadeInSection>
+          <Hero />
+        </FadeInSection>
+        <FadeInSection>
+          <Services />
+        </FadeInSection>
+        <FadeInSection>
+          <Experience />
+        </FadeInSection>
+        <FadeInSection>
+          <Gallery />
+        </FadeInSection>
+        <FadeInSection>
+          <Contact />
+        </FadeInSection>
       </main>
       <Footer />
     </div>
