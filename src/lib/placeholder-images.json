@@ -1,3 +1,58 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A stylish person wearing a custom-printed t-shirt in an urban setting",
+      "imageUrl": "https://images.unsplash.com/photo-1628136473110-6e95a86f4b81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwbGlmZXN0eWxlfGVufDB8fHx8MTc2NjkxMzgzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "product lifestyle"
+    },
+    {
+      "id": "service-mug",
+      "description": "A close-up of a premium custom-printed mug with a vibrant design",
+      "imageUrl": "https://images.unsplash.com/photo-1608270586620-248524c67de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3VzdG9tJTIwbXVnfGVufDB8fHx8MTc2NjkxODYxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "custom mug"
+    },
+    {
+      "id": "service-tshirt",
+      "description": "A custom-designed t-shirt displayed neatly",
+      "imageUrl": "https://images.unsplash.com/photo-1724490056260-44bf1de2617e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjdXN0b20lMjB0LXNoaXJ0fGVufDB8fHx8MTc2NjkxODYxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "custom t-shirt"
+    },
+    {
+      "id": "service-magic-print",
+      "description": "An art print with holographic and magical effects",
+      "imageUrl": "https://images.unsplash.com/photo-1650986656202-c8ceceb9b1ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxob2xvZ3JhcGhpYyUyMHByaW50fGVufDB8fHx8MTc2NjkxODYxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "holographic print"
+    },
+    {
+      "id": "experience-packaging",
+      "description": "Luxurious and elegant packaging for a custom product",
+      "imageUrl": "https://images.unsplash.com/photo-1759563874668-507c0fd04931?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjB1bmJveGluZ3xlbnwwfHx8fDE3NjY5MTg2MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luxury unboxing"
+    },
+    {
+      "id": "gallery-1",
+      "description": "First gallery image of a printed product",
+      "imageUrl": "https://images.unsplash.com/photo-1728721752007-1f0fc3e457be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwcmludGVkJTIwcHJvZHVjdHxlbnwwfHx8fDE3NjY5MTg2MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "printed product"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Second gallery image of a custom design",
+      "imageUrl": "https://images.unsplash.com/photo-1730189695425-bed37b990eb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdXN0b20lMjBkZXNpZ258ZW58MHx8fHwxNzY2ODk2ODcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "custom design"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Third gallery image of an artistic mug",
+      "imageUrl": "https://images.unsplash.com/photo-1578687596223-2ede660f0836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcnRpc3RpYyUyMG11Z3xlbnwwfHx8fDE3NjY5MTg2MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "artistic mug"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Fourth gallery image of a graphic tee",
+      "imageUrl": "https://images.unsplash.com/photo-1525393839361-867d646aea41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwdGVlfGVufDB8fHx8MTc2Njg5OTA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "graphic tee"
+    }
+  ]
 }
