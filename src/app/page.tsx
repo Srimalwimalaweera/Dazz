@@ -9,7 +9,7 @@ import { Footer } from "@/components/layout/footer";
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-background">
-      <div className="m-4">
+      <div className="mx-4 mb-4">
         <Header />
       </div>
       <main className="flex-1">
