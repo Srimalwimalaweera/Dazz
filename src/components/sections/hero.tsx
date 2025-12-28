@@ -3,7 +3,7 @@ import { WHATSAPP_LINK } from "@/lib/config";
 
 export function Hero() {
   return (
-    <section id="home" className="w-full bg-background py-20 md:py-32">
+    <section id="home" className="w-full bg-background py-10 md:py-16">
       <div className="container px-6 text-center">
         <h1 className="font-headline text-5xl font-extrabold tracking-tight text-primary md:text-7xl">
           DAZZLE WITH PERSONAL TOUCH
