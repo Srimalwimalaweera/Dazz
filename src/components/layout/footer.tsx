@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Facebook, Instagram, Mail, Phone, Twitter, MessageCircle } from "lucide-react";
-import { SquareLogo } from "@/components/dazz-logo";
+import { Logo } from "@/components/dazz-logo";
 import { SOCIAL_LINKS, WHATSAPP_LINK, CONTACT_EMAIL, WHATSAPP_NUMBER } from "@/lib/config";
 import { Button } from "../ui/button";
 
@@ -17,7 +17,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="md:col-span-1">
             <Link href="#home">
-              <SquareLogo />
+              <Logo className="h-10 w-28" />
             </Link>
             <p className="mt-4 text-sm text-foreground/60">Your vision, our quality.</p>
           </div>
