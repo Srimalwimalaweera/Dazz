@@ -9,6 +9,7 @@ const services = [
     title: "Premium Mugs",
     description: "Sip in style with our high-quality, custom-printed mugs. Perfect for gifts or personal use.",
     icon: Coffee,
+    videoUrl: "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2FDazz%20Mug%20(2).mp4?alt=media&token=6dae3a94-8183-476b-b3d2-ae7d56c57e8e"
   },
   {
     id: "service-tshirt",
@@ -45,8 +46,17 @@ export function Services() {
                 key={service.id}
                 className="group transform overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-accent/20"
               >
-                {image && (
-                  <CardContent className="p-0">
+                <CardContent className="p-0">
+                  {service.videoUrl ? (
+                     <video
+                      src={service.videoUrl}
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+                    />
+                  ) : image && (
                     <Image
                       src={image.imageUrl}
                       alt={image.description}
@@ -55,8 +65,8 @@ export function Services() {
                       className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
                       data-ai-hint={image.imageHint}
                     />
-                  </CardContent>
-                )}
+                  )}
+                </CardContent>
                 <CardHeader>
                   <div className="flex items-center gap-3">
                     <Icon className="h-8 w-8 text-accent"/>
