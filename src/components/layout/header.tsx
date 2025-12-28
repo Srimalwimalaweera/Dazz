@@ -5,7 +5,7 @@ import { Menu, MessageCircle } from "lucide-react";
 import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { NAV_LINKS, WHATSAPP_LINK } from "@/lib/config";
 import { Logo } from "@/components/dazz-logo";
 
@@ -44,6 +44,7 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right">
+              <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
               <Link href="#home" className="mb-8" onClick={() => setSheetOpen(false)}>
                 <Logo />
               </Link>
