@@ -60,7 +60,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-border/40 pt-8 text-center text-sm text-foreground/60">
-          <p>&copy; {new Date().getFullYear()} Dazz. All Rights Reserved.</p>
+          <p>&copy; 2025 DAZZ. Crafted in Sri Lanka.</p>
         </div>
       </div>
     </footer>

@@ -1,6 +1,6 @@
-export const WHATSAPP_NUMBER = "1234567890"; // IMPORTANT: Replace with your WhatsApp number
+export const WHATSAPP_NUMBER = "94712139152"; // IMPORTANT: Replace with your WhatsApp number
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}`;
-export const CONTACT_EMAIL = "hello@dazzprints.com";
+export const CONTACT_EMAIL = "dazzprinting@gmail.com";
 
 export const NAV_LINKS = [
   { href: "#home", label: "Home" },
