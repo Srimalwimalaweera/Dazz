@@ -47,25 +47,27 @@ export function Services() {
                 className="group transform overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-accent/20"
               >
                 <CardContent className="p-0">
-                  {service.videoUrl ? (
-                     <video
-                      src={service.videoUrl}
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      className="w-full object-cover transition-transform duration-300"
-                    />
-                  ) : image && (
-                    <Image
-                      src={image.imageUrl}
-                      alt={image.description}
-                      width={600}
-                      height={400}
-                      className="w-full object-cover transition-transform duration-300 group-hover:scale-110"
-                      data-ai-hint={image.imageHint}
-                    />
-                  )}
+                  <div className="aspect-video overflow-hidden">
+                    {service.videoUrl ? (
+                      <video
+                        src={service.videoUrl}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className="h-full w-full object-cover transition-transform duration-300"
+                      />
+                    ) : image && (
+                      <Image
+                        src={image.imageUrl}
+                        alt={image.description}
+                        width={600}
+                        height={400}
+                        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
+                        data-ai-hint={image.imageHint}
+                      />
+                    )}
+                  </div>
                 </CardContent>
                 <CardHeader>
                   <div className="flex items-center gap-3">
