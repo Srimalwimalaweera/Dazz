@@ -19,7 +19,7 @@ export function Footer() {
             <Link href="#home">
               <Logo className="h-10 w-28" />
             </Link>
-            <p className="mt-4 text-sm text-foreground/60">Your vision, our quality.</p>
+            <p className="mt-4 text-sm text-foreground/60">Your Imagination. Printed in Luxury.</p>
           </div>
 
           <div className="md:col-span-3 grid grid-cols-2 md:grid-cols-3 gap-8">
