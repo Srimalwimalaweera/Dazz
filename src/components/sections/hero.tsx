@@ -22,7 +22,7 @@ export function Hero() {
           className="mb-4 h-12 w-auto md:h-16"
         />
         <h1 className="font-headline text-5xl font-extrabold tracking-tight text-primary md:text-7xl">
-          PERSONAL TOUCH
+          Your Imagination. Printed in Luxury.
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-foreground/80 md:text-xl">
           From premium mugs to custom t-shirts and magic prints, we bring your vision to life with unparalleled quality.
