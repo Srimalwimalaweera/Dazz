@@ -54,7 +54,7 @@ export function Services() {
                       loop
                       muted
                       playsInline
-                      className="w-full h-48 object-cover transition-transform duration-300"
+                      className="w-full object-cover transition-transform duration-300"
                     />
                   ) : image && (
                     <Image
@@ -62,7 +62,7 @@ export function Services() {
                       alt={image.description}
                       width={600}
                       height={400}
-                      className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+                      className="w-full object-cover transition-transform duration-300 group-hover:scale-110"
                       data-ai-hint={image.imageHint}
                     />
                   )}
