@@ -25,7 +25,7 @@ export function Hero() {
           Your Imagination. Printed in Luxury.
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-foreground/80 md:text-xl">
-          From premium mugs to custom t-shirts and magic prints, we bring your vision to life with unparalleled quality.
+          Experience the art of premium custom printing with Sri Lanka's finest mugs and apparel.
         </p>
         <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
           <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
