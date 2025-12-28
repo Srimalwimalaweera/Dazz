@@ -9,7 +9,7 @@ const services = [
     title: "Premium Mugs",
     description: "Sip in style with our high-quality, custom-printed mugs. Perfect for gifts or personal use.",
     icon: Coffee,
-    videoUrl: "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2FDazz%20Mug%20(2).mp4?alt=media&token=6dae3a94-8183-476b-b3d2-ae7d56c57e8e"
+    videoUrl: "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2FDazz%20Mug.mp4?alt=media&token=86b96aa2-596d-4046-9cd5-48c9c21f9c4a"
   },
   {
     id: "service-tshirt",
