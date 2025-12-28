@@ -9,7 +9,7 @@ export function Gallery() {
       <div className="container mx-auto max-w-7xl px-6">
         <div className="text-center">
           <h2 className="font-headline text-4xl font-extrabold tracking-tight text-primary">
-            Our Dazzling Creations
+            Our Dazz Creations
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-foreground/60">
             A glimpse into the custom masterpieces we've brought to life for our clients.
