@@ -16,7 +16,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-7xl items-center">
         <Link href="#home" className="mr-6 flex items-center space-x-2">
-          <Logo />
+          <Logo className="h-8 w-24" />
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
           {NAV_LINKS.map((link) => (
@@ -46,7 +46,7 @@ export function Header() {
             <SheetContent side="right">
               <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
               <Link href="#home" className="mb-8" onClick={() => setSheetOpen(false)}>
-                <Logo />
+                <Logo className="h-8 w-24" />
               </Link>
               <nav className="flex flex-col items-start gap-6 text-lg font-medium">
                 {NAV_LINKS.map((link) => (
