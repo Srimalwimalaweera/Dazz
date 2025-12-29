@@ -1,7 +1,8 @@
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',  // <--- ⚠️ මේක අනිවාර්යයෙන්ම තියෙන්න ඕන!
+  
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -9,6 +10,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    unoptimized: true, // Cloudflare වල Image වැඩ කරන්න මේක ඕනමයි
     remotePatterns: [
       {
         protocol: 'https',
