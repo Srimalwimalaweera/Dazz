@@ -33,25 +33,25 @@
     {
       "id": "gallery-1",
       "description": "First gallery image of a printed product",
-      "imageUrl": "https://images.unsplash.com/photo-1728721752007-1f0fc3e457be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwcmludGVkJTIwcHJvZHVjdHxlbnwwfHx8fDE3NjY5MTg2MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2Fgallery%2FDazz%20wi.png?alt=media&token=9ac7d2c7-481d-4e1e-ac18-fb77cb0bb966",
       "imageHint": "printed product"
     },
     {
       "id": "gallery-2",
       "description": "Second gallery image of a custom design",
-      "imageUrl": "https://images.unsplash.com/photo-1730189695425-bed37b990eb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdXN0b20lMjBkZXNpZ258ZW58MHx8fHwxNzY2ODk2ODcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2Fgallery%2FGemini_Generated_Image_y1143gy1143gy114.png?alt=media&token=b46cae7c-a8e4-4093-91a6-7ca9b255b0d2",
       "imageHint": "custom design"
     },
     {
       "id": "gallery-3",
       "description": "Third gallery image of an artistic mug",
-      "imageUrl": "https://images.unsplash.com/photo-1578687596223-2ede660f0836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcnRpc3RpYyUyMG11Z3xlbnwwfHx8fDE3NjY5MTg2MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2Fgallery%2FUntitled%20design%20(2).png?alt=media&token=ac205e4b-665d-4a31-98b6-8150b0711f31",
       "imageHint": "artistic mug"
     },
     {
       "id": "gallery-4",
       "description": "Person holding a custom mug",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2Fgallery%2F1767123026220.jpg?alt=media&token=3d82c752-1b72-4337-b660-b08a7d97f440",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2Fgallery%2FUntitled%20design.png?alt=media&token=04edd59c-fd31-42b5-b919-a276f0638ab5",
       "imageHint": "custom mug"
     }
   ]
