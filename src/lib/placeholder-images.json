@@ -50,9 +50,9 @@
     },
     {
       "id": "gallery-4",
-      "description": "Fourth gallery image of a graphic tee",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2Fgallery%2FGemini_Generated_Image_av1fwkav1fwkav1f.png?alt=media&token=48efa808-28c3-451d-8de4-0f939b132eaf",
-      "imageHint": "graphic tee"
+      "description": "Person holding a custom mug",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2Fgallery%2F1767123026220.jpg?alt=media&token=3d82c752-1b72-4337-b660-b08a7d97f440",
+      "imageHint": "custom mug"
     }
   ]
 }
