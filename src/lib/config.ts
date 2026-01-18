@@ -10,7 +10,7 @@ export const NAV_LINKS = [
 ];
 
 export const SOCIAL_LINKS = [
-    { name: "Instagram", url: "https://instagram.com", },
-    { name: "Facebook", url: "https://facebook.com", },
-    { name: "Twitter", url: "https://twitter.com", },
+    { name: "Facebook", url: "https://web.facebook.com/DazzPrinting" },
+    { name: "TikTok", url: "https://www.tiktok.com/@dazzprinting" },
+    { name: "Instagram", url: "https://www.instagram.com/dazz.printing/" },
 ];
