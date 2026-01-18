@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useState, useEffect } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { getImageById } from "@/lib/placeholder-images";
 import { Coffee, Shirt, Sparkles } from "lucide-react";
@@ -16,6 +19,10 @@ const services = [
     title: "Custom T-Shirts",
     description: "Wear your story. We print vibrant designs on comfortable, durable t-shirts.",
     icon: Shirt,
+    imageUrls: [
+        "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2Fgallery%2FGemini_Generated_Image_av1fwkav1fwkav1f.png?alt=media&token=48efa808-28c3-451d-8de4-0f939b132eaf",
+        "https://firebasestorage.googleapis.com/v0/b/dsw-first.firebasestorage.app/o/images%2F3bxpT69eRnb4NsZR0Al5ZZSV3Ti1%2Fgallery%2FGemini_Generated_Image_qby3ogqby3ogqby3.png?alt=media&token=935d4aab-8def-411b-b730-841ef3636a49"
+    ]
   },
   {
     id: "service-magic-print",
@@ -26,6 +33,20 @@ const services = [
 ];
 
 export function Services() {
+    const [tshirtImageIndex, setTshirtImageIndex] = useState(0);
+    const tShirtService = services.find(s => s.id === 'service-tshirt');
+    const tShirtImageUrls = tShirtService?.imageUrls || [];
+
+    useEffect(() => {
+        if (tShirtImageUrls.length > 1) {
+            const intervalId = setInterval(() => {
+                setTshirtImageIndex(prevIndex => (prevIndex + 1) % tShirtImageUrls.length);
+            }, 3000);
+
+            return () => clearInterval(intervalId);
+        }
+    }, [tShirtImageUrls.length]);
+
   return (
     <section id="services" className="py-20 md:py-32">
       <div className="container mx-auto max-w-7xl px-6">
@@ -39,8 +60,9 @@ export function Services() {
         </div>
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
           {services.map((service) => {
-            const image = getImageById(service.id);
+            const image = service.id !== 'service-tshirt' ? getImageById(service.id) : null;
             const Icon = service.icon;
+            
             return (
               <Card
                 key={service.id}
@@ -57,6 +79,15 @@ export function Services() {
                         playsInline
                         className="h-full w-full object-cover transition-transform duration-300"
                       />
+                    ) : service.id === 'service-tshirt' && service.imageUrls ? (
+                        <Image
+                            src={service.imageUrls[tshirtImageIndex]}
+                            alt={service.title}
+                            width={600}
+                            height={400}
+                            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
+                            data-ai-hint="custom t-shirt"
+                        />
                     ) : image && (
                       <Image
                         src={image.imageUrl}
