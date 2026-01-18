@@ -3,10 +3,10 @@ export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}`;
 export const CONTACT_EMAIL = "dazzprinting@gmail.com";
 
 export const NAV_LINKS = [
-  { href: "#home", label: "Home" },
-  { href: "#services", label: "Services" },
-  { href: "#gallery", label: "Gallery" },
-  { href: "#contact", label: "Contact" },
+  { href: "/", label: "Home" },
+  { href: "/#services", label: "Services" },
+  { href: "/#gallery", label: "Gallery" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export const SOCIAL_LINKS = [

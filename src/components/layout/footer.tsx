@@ -27,7 +27,7 @@ export function Footer() {
       <div className="container mx-auto max-w-7xl px-6 py-12">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="md:col-span-1">
-            <Link href="#home">
+            <Link href="/">
               <Logo className="h-10 w-28" />
             </Link>
             <p className="mt-4 text-sm text-foreground/60">Your Imagination. Printed in Luxury.</p>
@@ -37,9 +37,9 @@ export function Footer() {
             <div>
               <h3 className="font-semibold text-primary">Quick Links</h3>
               <nav className="mt-4 flex flex-col space-y-2">
-                <Link href="#services" className="text-foreground/60 hover:text-primary">Services</Link>
-                <Link href="#gallery" className="text-foreground/60 hover:text-primary">Gallery</Link>
-                <Link href="#contact" className="text-foreground/60 hover:text-primary">Contact</Link>
+                <Link href="/#services" className="text-foreground/60 hover:text-primary">Services</Link>
+                <Link href="/#gallery" className="text-foreground/60 hover:text-primary">Gallery</Link>
+                <Link href="/contact" className="text-foreground/60 hover:text-primary">Contact</Link>
               </nav>
             </div>
             <div>
