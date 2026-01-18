@@ -61,8 +61,9 @@ export function Footer() {
                 {SOCIAL_LINKS.map(social => {
                   const Icon = socialIcons[social.name];
                   return (
-                    <a key={social.name} href={social.url} target="_blank" rel="noopener noreferrer" aria-label={social.name} className="text-foreground/60 hover:text-primary">
-                      {Icon && <Icon className="h-6 w-6" />}
+                    <a key={social.name} href={social.url} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 text-foreground/60 transition-colors hover:text-primary">
+                      {Icon && <Icon className="h-5 w-5" />}
+                      <span className="text-xs font-medium">{social.name}</span>
                     </a>
                   );
                 })}
